@@ -1,0 +1,14 @@
+[
+    {
+        "time" : "0 30 9 * * 1-5 ",
+        "msg" : "Good morning ! Let's start morning meeting !"
+    },
+    {
+        "time": "00 06 17 06 03 *",
+        "msg": "와하하하.."
+    },
+    {
+        "time": "00 28 17 06 03 *",
+        "msg": "와하하하.."
+    }
+]

@@ -1,0 +1,30 @@
+{
+  "name": "mrslo",
+  "version": "0.0.0",
+  "private": true,
+  "author": "YunkiMoon <yunki@slowalk.co.kr>",
+  "description": "mrslo",
+  "dependencies": {
+    "hubot": "^2.11.4",
+    "hubot-cron": ">= 0.1.0",
+    "hubot-cron-json": "^0.1.1",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-google-images": "^0.1.4",
+    "hubot-google-translate": "^0.1.0",
+    "hubot-help": "^0.1.1",
+    "hubot-heroku-keepalive": "0.0.4",
+    "hubot-maps": "0.0.1",
+    "hubot-pugme": "^0.1.0",
+    "hubot-redis-brain": "0.0.2",
+    "hubot-rules": "^0.1.0",
+    "hubot-scripts": "^2.5.16",
+    "hubot-shipit": "^0.1.2",
+    "hubot-slack": "^3.3.0",
+    "hubot-standup-alarm": "0.0.3",
+    "hubot-thank-you": "0.0.3",
+    "hubot-youtube": "^0.1.2"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
