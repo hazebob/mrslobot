@@ -110,7 +110,7 @@ module.exports = (robot) ->
     msg.send msg.random menus
 
   robot.respond /(와이파이).*/i, (msg) ->
-    msg.send "직원용은 *AP\:slowalk PW\: s7331010slowa* 손님용은 *AP\: slowalk_guest PW\: walks* 랍니다"
+    msg.send "직원용은 ​*AP: slowalk, slowalk1, slowalk2 PW: s7331010slowa*​ 손님용은 ​*AP: slowalk_guest PW: walks*​ 랍니다"
 
   robot.respond /(주소).*/i, (msg) ->
     msg.send "사무실 주소요? 새주소는 *종로구 자하문로10길 30 3층*, 옛주소는 *종로구 통의동 6 3층* 입니다. 오시는길 설명은 *3호선 경복궁역 3번 출구 > 약 400m 직진 > 카페 코코인 끼고 우회전 > 약 150m 직진 > 팔레드 서울 3층* 으로 해주세요"
