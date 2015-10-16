@@ -127,17 +127,17 @@ module.exports = (robot) ->
     msg.send "https://docs.google.com/document/d/1JY1bBBITfdMBxCU5kMhr-nr3abeackmRNdNn1KMKGy8/edit"
     msg.send "여기에 작성해 주세요."
 
-#  robot.hear /(씨).*/i, (msg) ->
-#    msg.send "~님이라고 불러주세요"
+  robot.hear /(씨).*/i, (msg) ->
+    msg.send "~님이라고 불러주세요"
 
-#  robot.hear /(팀장님).*/i, (msg) ->
-#    msg.send "(~이름~)님이라고 불러주세요~"
+  robot.hear /(팀장님).*/i, (msg) ->
+    msg.send "(~이름~)님이라고 불러주세요~"
 
-#  robot.hear /(이사님).*/i, (msg) ->
-#    msg.send "(~이름~)님이라고 불러주세요~"
+  robot.hear /(이사님).*/i, (msg) ->
+    msg.send "(~이름~)님이라고 불러주세요~"
 
-#  robot.hear /(실장님).*/i, (msg) ->
-#    msg.send "(~이름~)님이라고 불러주세요~"
+  robot.hear /(실장님).*/i, (msg) ->
+    msg.send "(~이름~)님이라고 불러주세요~"
 
-#  robot.hear /(대표님).*/i, (msg) ->
-#    msg.send "(~이름~)님이라고 불러주세요~"
+  robot.hear /(대표님).*/i, (msg) ->
+    msg.send "(~이름~)님이라고 불러주세요~"
