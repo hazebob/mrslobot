@@ -127,8 +127,98 @@ module.exports = (robot) ->
     msg.send "https://docs.google.com/document/d/1JY1bBBITfdMBxCU5kMhr-nr3abeackmRNdNn1KMKGy8/edit"
     msg.send "여기에 작성해 주세요."
 
-  robot.hear /(씨).*/i, (msg) ->
-    msg.send "~님이라고 불러주세요"
+  robot.hear /(의균씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(성도씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(호열씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(윤기씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(길우씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(예라씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(정규씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(대균씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(정권씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(광진씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(영현씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(지은씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(선주씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(도형씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(혜진씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(송희씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(목애씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(궁은빈씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(옥연씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(은지씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(영희씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(마로씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(명직씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(지현씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(화진씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(기주씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(태석씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(예슬씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(다온씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(다래씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
+
+  robot.hear /(효정씨).*i, (msg) ->
+    msg.send "~님이라고 불러주세요."
 
   robot.hear /(팀장님).*/i, (msg) ->
     msg.send "(~이름~)님이라고 불러주세요~"
