@@ -81,7 +81,7 @@ menus = [
 
 
 module.exports = (robot) ->
-  robot.hear /(연락처).*/i, (msg) ->
+  robot.hear /(슬로워크연락처).*/i, (msg) ->
     msg.send "동료들의 연락처가 궁금하세요?  https://docs.google.com/a/slowalk.co.kr/spreadsheets/d/1oj4ZZuLgXxpGeHkz56xpBRbM6Pz6QsUQhXNq_A7tD0M/edit#gid=0"
 
   robot.respond /(휴가).*/i, (msg) ->
