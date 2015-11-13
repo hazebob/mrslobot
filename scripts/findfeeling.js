@@ -1857,6 +1857,7 @@ module.exports = function(robot) {
     };
 
     var result = results[Math.floor(Math.random()*results.length)];
+    var result = result.replace('_500.png', '_250.png');
 
     msg.send(result);
   });
