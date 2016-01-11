@@ -128,11 +128,11 @@ module.exports = (robot) ->
     msg.send "여기에 작성해 주세요."
 
   robot.respond /(팀리더회의).*/i, (msg) ->
-    msg.send "https://docs.google.com/document/d/1JY1bBBITfdMBxCU5kMhr-nr3abeackmRNdNn1KMKGy8/edit"
+    msg.send "https://docs.google.com/document/d/1SHSXBvJNomyklo15oS56YRBhAhn6CM5I-wz2oD4q63o/edit"
     msg.send "안건을 미리 작성할 수 있습니다."
 
   robot.respond /(팀장회의).*/i, (msg) ->
-    msg.send "https://docs.google.com/document/d/1JY1bBBITfdMBxCU5kMhr-nr3abeackmRNdNn1KMKGy8/edit"
+    msg.send "https://docs.google.com/document/d/1SHSXBvJNomyklo15oS56YRBhAhn6CM5I-wz2oD4q63o/edit"
     msg.send "안건을 미리 작성할 수 있습니다."
 
   robot.hear /(의균씨).*/i, (msg) ->
