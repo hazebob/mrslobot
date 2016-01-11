@@ -124,7 +124,7 @@ module.exports = (robot) ->
     msg.send "스티비는 이메일 뉴스레터 제작 과정 전체에 대한 고민이 담겨있는 서비스로, 2015년 여름에 선보일 예정입니다."
 
   robot.respond /(뭐든지팀주간보고).*/i, (msg) ->
-    msg.send "https://docs.google.com/document/d/1SHSXBvJNomyklo15oS56YRBhAhn6CM5I-wz2oD4q63o/edit"
+    msg.send "https://docs.google.com/document/d/1JY1bBBITfdMBxCU5kMhr-nr3abeackmRNdNn1KMKGy8/edit"
     msg.send "여기에 작성해 주세요."
 
   robot.respond /(팀리더회의).*/i, (msg) ->
